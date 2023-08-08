@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+    .left{
+        width: 50%;
+
+        .text{
+            margin: auto;
+            width: 60%;
+            text-align: center;
+
+            button{
+                padding: 15px 31%;
+                transform: translatex(20px);
+                border-radius: 15px;
+                background-color: black;
+                color: white;
+            }
+
+            .three{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            h3{
+                color: #005A6459;
+            }
+
+            .tom{
+                border: 2px solid black;
+                display: flex;
+                width: 80%;
+                border-radius: 15px;
+                gap: 50px;
+                margin: auto;
+
+                img{
+                    width: 20px;
+                    height: 20px;
+                    transform: translate(10px,20px);
+                }
+            }
+
+            .email{
+                border: 2px solid black;
+                display: flex;
+                width: 80%;
+                border-radius: 15px;
+                gap: 50px;
+                margin: auto;
+
+                img{
+                    width: 20px;
+                    height: 20px;
+                    transform: translate(10px,20px);
+                }
+            }
+
+            .password{
+                border: 2px solid black;
+                display: flex;
+                width: 73%;
+                border-radius: 15px;
+                gap: 50px;
+                margin: auto;
+                padding: 17px;
+
+                img{
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+
+    .right{
+        width: 50%;
+        background-color: black;
+        color: white;
+        text-align: center;
+
+        img{
+            margin: 50px;
+        }
+
+        button{
+            width: 80px;
+            height: 50px;
+            border-radius: 10px;
+            cursor: pointer;
+            border: none;
+        }
+    }
+}
